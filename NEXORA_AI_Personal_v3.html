@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#10182f"><meta name="description" content="NEXORA AI — one intelligence, endless possibilities."><title>NEXORA AI - Easy Start</title>
+<style>
+:root{--navy:#10182f;--blue:#526dff;--cyan:#40d6cf;--ink:#18213b;--muted:#6c7690;--bg:#f4f6fb;--card:#fff;--line:#e7eaf2}*{box-sizing:border-box}body{margin:0;background:var(--bg);font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--ink)}button,input,textarea,select{font:inherit}.app{max-width:760px;margin:auto;min-height:100vh;padding-bottom:86px}.top{background:linear-gradient(135deg,#10182f,#243b73);color:white;padding:22px 20px 25px;border-radius:0 0 25px 25px}.brand{display:flex;align-items:center;gap:11px}.logo{width:43px;height:43px;border-radius:14px;background:linear-gradient(135deg,var(--cyan),#7183ff);display:grid;place-items:center;color:#10182f;font-weight:900;font-size:19px}.brand h1{font-size:20px;margin:0;letter-spacing:.5px}.brand small{color:#c8d4ff}.welcome{margin-top:24px}.welcome h2{font-size:25px;margin:0 0 6px}.welcome p{margin:0;color:#d2daf4;font-size:14px;line-height:1.5}.pill{display:inline-block;margin-top:15px;padding:7px 11px;border:1px solid #ffffff44;border-radius:20px;font-size:12px;color:#e8edff}.content{padding:20px}.section-title{display:flex;justify-content:space-between;align-items:center;margin:4px 0 13px}.section-title h3{font-size:17px;margin:0}.section-title span{font-size:12px;color:var(--muted)}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.tile{background:var(--card);border:1px solid var(--line);border-radius:17px;padding:16px;text-align:left;min-height:136px;box-shadow:0 4px 15px #17234b08;cursor:pointer;color:var(--ink)}.tile:active{transform:scale(.985)}.icon{width:39px;height:39px;border-radius:12px;background:#eef1ff;display:grid;place-items:center;font-size:20px;margin-bottom:12px}.tile strong{display:block;font-size:14px;margin-bottom:5px}.tile small{color:var(--muted);font-size:12px;line-height:1.4}.panel{background:white;border:1px solid var(--line);border-radius:18px;padding:17px;margin-top:17px}.panel p{color:var(--muted);font-size:13px;line-height:1.5;margin:5px 0 0}.status{display:flex;gap:9px;align-items:center}.dot{width:9px;height:9px;border-radius:50%;background:#e9a23b}.toolview{display:none}.toolview.active{display:block}.homeview.hidden{display:none}.back{border:0;background:#e9edff;color:#3046b4;padding:9px 12px;border-radius:11px;margin:0 0 16px;font-weight:650}.toolhead{display:flex;gap:12px;align-items:center;margin-bottom:15px}.toolhead .icon{margin:0}.toolhead h2{margin:0;font-size:20px}.toolhead p{margin:3px 0 0;color:var(--muted);font-size:12px}label{display:block;font-size:13px;font-weight:650;margin:14px 0 7px}input,textarea,select{width:100%;border:1px solid #dce1ed;border-radius:12px;padding:12px;background:#fff;color:var(--ink);outline:none}textarea{min-height:100px;resize:vertical}input:focus,textarea:focus,select:focus{border-color:var(--blue)}.primary{width:100%;border:0;border-radius:12px;padding:13px;background:linear-gradient(100deg,var(--blue),#765dff);color:white;font-weight:750;margin-top:14px;cursor:pointer}.output{display:none;margin-top:15px;background:#f6f8ff;border:1px solid #dce3ff;border-radius:13px;padding:14px;white-space:pre-wrap;font-size:13px;line-height:1.55}.output.show{display:block}.copy{border:0;background:#e5eaff;color:#3046b4;padding:8px 11px;border-radius:9px;font-weight:650;margin-top:10px}.notice{font-size:12px;color:#7a6540;background:#fff8e9;border:1px solid #f2e2bc;padding:12px;border-radius:12px;line-height:1.5;margin-top:16px}.bottom{position:fixed;bottom:0;left:0;right:0;background:#ffffffef;backdrop-filter:blur(10px);border-top:1px solid var(--line);display:flex;justify-content:center;z-index:5}.bottom-inner{max-width:760px;width:100%;display:flex;justify-content:space-around;padding:10px}.navbtn{border:0;background:none;color:#78819a;font-size:11px;padding:4px 12px}.navbtn b{display:block;font-size:18px;margin-bottom:2px}.navbtn.active{color:#4059e8}.footer{text-align:center;color:#929bb0;font-size:11px;margin:22px 0 4px}@media(min-width:600px){.grid{grid-template-columns:repeat(3,minmax(0,1fr))}.top{padding:27px 28px 30px}.content{padding:25px}}
+</style></head>
+<body><div class="app">
+<header class="top"><div class="brand"><div class="logo">N</div><div><h1>NEXORA AI</h1><small>One Intelligence. Endless Possibilities.</small></div></div><div class="welcome"><h2>Make work easier.</h2><p>Your everyday starting point for business, marketing, content and practical problem-solving.</p><span class="pill">Africa-first • Mobile-friendly • Starter version</span></div></header>
+<main class="content">
+<section class="homeview" id="home"><div class="section-title"><h3>What would you like to do?</h3><span>Choose a tool</span></div><div class="grid">
+<button class="tile" onclick="openTool('marketing')"><div class="icon">📣</div><strong>Marketing Creator</strong><small>Draft adverts, captions and promotional messages.</small></button>
+<button class="tile" onclick="openTool('content')"><div class="icon">✍️</div><strong>Content & E-book Helper</strong><small>Plan content, outlines and product descriptions.</small></button>
+<button class="tile" onclick="openTool('business')"><div class="icon">💼</div><strong>Business Starter</strong><small>Explore business ideas and simple first steps.</small></button>
+<button class="tile" onclick="openTool('problem')"><div class="icon">🧩</div><strong>Problem Solver</strong><small>Break a challenge into practical next actions.</small></button>
+<button class="tile" onclick="openTool('sales')"><div class="icon">🤝</div><strong>Sales Assistant</strong><small>Prepare customer replies and follow-up messages.</small></button>
+<button class="tile" onclick="openTool('opportunity')"><div class="icon">🔎</div><strong>Income Planner</strong><small>Compare realistic ways to start earning.</small></button>
+</div><div class="panel"><strong>Today's simple action list</strong><p>Choose one small task and tick it when finished. Your checklist is saved on this phone.</p>
+<div id="dailyTasks" style="margin-top:10px">
+<label style="font-weight:500"><input type="checkbox" style="width:auto;margin-right:8px" data-task="1"> Decide the one most important task today</label>
+<label style="font-weight:500"><input type="checkbox" style="width:auto;margin-right:8px" data-task="2"> Create or improve one useful piece of content</label>
+<label style="font-weight:500"><input type="checkbox" style="width:auto;margin-right:8px" data-task="3"> Contact one potential customer or helpful person</label>
+</div><button class="copy" onclick="resetDailyTasks()">Reset checklist</button></div><div class="panel"><div class="status"><span class="dot"></span><strong>Personal mode is active</strong></div><p>Create drafts here, save useful results on this phone, or continue with ChatGPT for a live AI response. No GitHub account or API key is needed for this personal workflow.</p></div><div class="notice"><b>Safety first:</b> NEXORA AI will ask for your approval before important actions. Never pay a registration or withdrawal fee to an earning opportunity without checking it carefully.</div></section>
+
+<section class="panel" id="doAnything" style="margin-top:18px">
+  <div class="section-title"><h3>✨ Let NEXORA help</h3><span>Personal AI desk</span></div>
+  <p>Tell NEXORA what you need. It will prepare a clear request you can send to ChatGPT for an AI answer.</p>
+  <label for="taskType">What kind of help do you need?</label>
+  <select id="taskType">
+    <option>Business and earning ideas</option>
+    <option>Marketing and advertising</option>
+    <option>Writing and content creation</option>
+    <option>Learning and explanations</option>
+    <option>Planning and organisation</option>
+    <option>Everyday problem-solving</option>
+    <option>Other</option>
+  </select>
+  <label for="taskNeed">Describe what you want NEXORA to do</label>
+  <textarea id="taskNeed" placeholder="Example: Help me create a simple advert for my mobile data business. Include a short WhatsApp message."></textarea>
+  <label for="taskStyle">How should the answer be presented?</label>
+  <select id="taskStyle">
+    <option>Simple step-by-step instructions</option>
+    <option>A finished result I can use</option>
+    <option>Ideas with advantages and disadvantages</option>
+    <option>A detailed explanation</option>
+  </select>
+  <button class="primary" onclick="prepareNexoraRequest()">Prepare my AI request</button>
+  <div id="nexoraPromptResult" class="output" style="display:none"></div>
+  <div class="notice">Live AI is provided by ChatGPT when you open it. This personal NEXORA file does not contain its own AI engine, and it will not post, message customers, spend money or make decisions without your approval.</div>
+</section>
+<section class="toolview" id="tool"><button class="back" onclick="goHome()">← Back to tools</button><div class="toolhead"><div class="icon" id="toolIcon">📣</div><div><h2 id="toolTitle">Tool</h2><p id="toolDesc">Describe what you need.</p></div></div><div id="fields"></div><button class="primary" onclick="generate()">Create my result</button><div class="output" id="output"></div><section id="savedScreen" class="panel" style="display:none"><strong>My saved work</strong><p>Your saved drafts are stored in this browser on this phone.</p><div id="savedItems"></div></section><div class="footer">NEXORA AI • Personal Edition 2</div></section>
+</main></div><nav class="bottom"><div class="bottom-inner"><button class="navbtn active" onclick="goHome()"><b>⌂</b>Home</button><button class="navbtn" onclick="showSavedWork()"><b>▤</b>My work</button><button class="navbtn" onclick="showInfo('Account registration and cloud sync will be added before public launch.')"><b>☺</b>Account</button></div></nav>
+<script>
+const configs={
+marketing:{icon:'📣',title:'Marketing Creator',desc:'Create a simple promotional draft for your product or service.',fields:[['product','What are you selling?','input','e.g. 1GB MTN data'],['audience','Who do you want to reach?','input','e.g. students and workers'],['offer','Price or special offer (optional)','input','e.g. ₦250'] ]},
+content:{icon:'✍️',title:'Content & E-book Helper',desc:'Create a content plan or a useful digital-product outline.',fields:[['topic','What is your topic?','input','e.g. starting a small business'],['format','Choose a format','select',['Social media content plan','E-book outline','Product description','Short educational article']],['audience','Who is it for?','input','e.g. beginners in Nigeria']]},
+business:{icon:'💼',title:'Business Starter',desc:'Explore a practical small-business idea based on your situation.',fields:[['skills','What skills or interests do you have?','input','e.g. selling, writing, cooking'],['budget','What starting budget do you have?','select',['₦0','Below ₦10,000','₦10,000–₦50,000','Above ₦50,000']],['device','What tools can you use?','select',['Android phone only','Phone and laptop','Shop or physical workspace']]]},
+problem:{icon:'🧩',title:'Problem Solver',desc:'Explain the challenge and get a structured action plan.',fields:[['problem','What problem are you facing?','textarea','Describe it in a few sentences'],['goal','What outcome do you want?','input','What would a good result look like?']]},
+sales:{icon:'🤝',title:'Sales Assistant',desc:'Prepare a polite reply or customer follow-up. Review before sending.',fields:[['product','What do you sell?','input','Product or service'],['customer','What did the customer ask or say?','textarea','Paste their message'],['tone','Preferred tone','select',['Friendly','Professional','Short and direct']]]},
+opportunity:{icon:'🔎',title:'Income Planner',desc:'Build a realistic starting plan. No income is guaranteed.',fields:[['skills','What can you do or learn?','input','e.g. writing, design, selling'],['time','How much time can you spend daily?','select',['30 minutes','1 hour','2–3 hours','More than 3 hours']],['budget','Starting budget','select',['₦0','Below ₦10,000','₦10,000–₦50,000']]]}
+};let current='';
+function openTool(id){document.getElementById('savedScreen').style.display='none';current=id;const c=configs[id];document.getElementById('home').classList.add('hidden');document.getElementById('tool').classList.add('active');document.getElementById('toolIcon').textContent=c.icon;document.getElementById('toolTitle').textContent=c.title;document.getElementById('toolDesc').textContent=c.desc;document.getElementById('output').className='output';document.getElementById('fields').innerHTML=c.fields.map(f=>{let el=f[2]==='textarea'?`<textarea id="${f[0]}" placeholder="${f[3]}"></textarea>`:f[2]==='select'?`<select id="${f[0]}">${f[3].map(x=>`<option>${x}</option>`).join('')}</select>`:`<input id="${f[0]}" placeholder="${f[3]}">`;return `<label>${f[1]}</label>${el}`}).join('');window.scrollTo(0,0)}
+function goHome(){document.getElementById('savedScreen').style.display='none';document.getElementById('home').classList.remove('hidden');document.getElementById('tool').classList.remove('active');document.querySelectorAll('.navbtn').forEach((b,i)=>b.classList.toggle('active',i===0));window.scrollTo(0,0)}
+function val(id){return (document.getElementById(id)?.value||'').trim()}
+function generate(){let v=id=>val(id);let s='';switch(current){case'marketing':s=`PROMOTIONAL DRAFT\n\n${v('product')} — made simple!\n\nLooking for ${v('product')}? We are ready to help. ${v('offer')?'Offer: '+v('offer')+'. ':''}Send us a message today to ask questions or place an order.\n\nAudience: ${v('audience')}\n\nCALL TO ACTION: Message us now for details.\n\nBefore publishing: confirm the price, availability, terms and contact details.`;break;case'content':s=`${v('format').toUpperCase()}\nTopic: ${v('topic')}\nAudience: ${v('audience')}\n\nSuggested structure:\n1. Start with the problem or question.\n2. Explain the key idea in simple language.\n3. Give 3 practical tips or examples.\n4. Include a short action readers can take.\n5. End with a clear summary or invitation.\n\nNext step: add accurate examples and check all facts before publishing.`;break;case'business':s=`STARTER BUSINESS PLAN\n\nYour interests/skills: ${v('skills')}\nBudget: ${v('budget')}\nAvailable tools: ${v('device')}\n\nA sensible first approach:\n1. Choose one small problem people already pay to solve.\n2. Speak to 5–10 potential customers before spending money.\n3. Offer a simple version of the service or product.\n4. Record every cost and sale.\n5. Reinvest only after you see real demand.\n\nPossible low-cost directions: service-based work, local product reselling, digital content services or tutoring—choose based on your skills and local demand.\n\nThis is a starting framework, not a guarantee of profit.`;break;case'problem':s=`PRACTICAL ACTION PLAN\n\nProblem: ${v('problem')}\nDesired outcome: ${v('goal')}\n\n1. Define the exact issue in one sentence.\n2. Separate what you know from what you are assuming.\n3. Identify the smallest safe action you can take today.\n4. List who or what could help.\n5. Set a time to review whether the action worked.\n\nIf this involves health, safety, legal or financial risk, seek qualified help before taking a major decision.`;break;case'sales':s=`CUSTOMER REPLY DRAFT (${v('tone')})\n\nHello! Thank you for your interest in ${v('product')}.\n\nRegarding your message: “${v('customer')}”\n\nThank you for checking with us. I would be happy to help and provide the correct details. Please let me confirm the information and get back to you shortly.\n\nPlease review this reply, replace any missing details and get the customer's permission before sending further promotional messages.`;break;case'opportunity':s=`YOUR LOW-COST INCOME STARTING PLAN\n\nSkills/interests: ${v('skills')}\nTime available: ${v('time')} daily\nBudget: ${v('budget')}\n\n1. Start with one service or product, not several at once.\n2. Choose a task you can demonstrate with a sample.\n3. Show the sample to 5 potential customers.\n4. Ask what they need and what they would realistically pay.\n5. Track time, costs and actual payments.\n\nPossible paths to investigate: writing and editing, simple design, tutoring, local reselling or helping small businesses with content.\n\nAvoid schemes promising guaranteed daily returns, and never pay to unlock a supposed withdrawal. Earnings are not guaranteed.`;break;}let out=document.getElementById('output');out.textContent=s;out.className='output show';let b=document.createElement('button');b.className='copy';b.textContent='Copy result';b.onclick=()=>{navigator.clipboard?.writeText(s).then(()=>b.textContent='Copied!').catch(()=>b.textContent='Select and copy the text')};out.appendChild(document.createElement('br'));out.appendChild(b);
+let save=document.createElement('button');save.className='copy';save.style.marginLeft='6px';save.textContent='Save on this phone';save.onclick=()=>saveNexoraWork(s);out.appendChild(save);
+let ai=document.createElement('button');ai.className='primary';ai.textContent='Continue with ChatGPT AI';ai.onclick=()=>sendToChatGPT(s);out.appendChild(ai);
+out.scrollIntoView({behavior:'smooth',block:'nearest'})}
+function saveNexoraWork(text){
+ let items=[];try{items=JSON.parse(localStorage.getItem('nexora_personal_saved')||'[]')}catch(e){}
+ items.unshift({text:text,date:new Date().toLocaleString()});
+ localStorage.setItem('nexora_personal_saved',JSON.stringify(items.slice(0,30)));
+ alert('Saved on this phone. Your saved drafts stay in this browser on this device.');
+}
+function sendToChatGPT(draft){
+ const prompt='Please improve and expand this NEXORA AI draft. Make it practical, clear and suitable for a beginner in Nigeria. Do not invent facts or guarantee income.\\n\\n'+draft;
+ window.open('https://chatgpt.com/?q='+encodeURIComponent(prompt),'_blank');
+}
+
+function showSavedWork(){
+ document.getElementById('home').classList.add('hidden');
+ document.getElementById('tool').classList.add('active');
+ document.getElementById('savedScreen').style.display='block';
+ document.getElementById('toolTitle').textContent='My saved work';
+ document.getElementById('toolIcon').textContent='▤';
+ document.getElementById('toolDesc').textContent='Open, copy, share or delete your saved drafts.';
+ document.getElementById('fields').innerHTML='';
+ document.getElementById('output').className='output';
+ document.querySelectorAll('.navbtn').forEach((b,i)=>b.classList.toggle('active',i===1));
+ const holder=document.getElementById('savedItems'); holder.innerHTML='';
+ let items=[];try{items=JSON.parse(localStorage.getItem('nexora_personal_saved')||'[]')}catch(e){}
+ if(!items.length){holder.textContent='No saved work yet. Create a result and tap “Save on this phone”.';return;}
+ items.forEach((item,index)=>{
+  const card=document.createElement('div');
+  card.style.cssText='border-top:1px solid #e7eaf2;padding:13px 0;white-space:pre-wrap;font-size:13px;line-height:1.5';
+  const date=document.createElement('small');date.textContent=item.date||'';date.style.color='#6c7690';card.appendChild(date);
+  const body=document.createElement('div');body.textContent=item.text;body.style.margin='7px 0';card.appendChild(body);
+  const copy=document.createElement('button');copy.className='copy';copy.textContent='Copy';copy.onclick=()=>copyText(item.text,copy);card.appendChild(copy);
+  const share=document.createElement('button');share.className='copy';share.style.marginLeft='6px';share.textContent='Share';share.onclick=()=>shareText(item.text);card.appendChild(share);
+  const remove=document.createElement('button');remove.className='copy';remove.style.marginLeft='6px';remove.textContent='Delete';remove.onclick=()=>{items.splice(index,1);localStorage.setItem('nexora_personal_saved',JSON.stringify(items));showSavedWork()};card.appendChild(remove);
+  holder.appendChild(card);
+ });
+}
+function copyText(text,button){
+ if(navigator.clipboard && navigator.clipboard.writeText){navigator.clipboard.writeText(text).then(()=>button.textContent='Copied').catch(()=>alert('Please select and copy the text manually.'))}
+ else{alert('Clipboard is not available in this browser. Please select and copy the text manually.')}
+}
+function shareText(text){
+ if(navigator.share){navigator.share({title:'NEXORA AI draft',text:text}).catch(()=>{})}
+ else{window.open('https://wa.me/?text='+encodeURIComponent(text),'_blank')}
+}
+function resetDailyTasks(){document.querySelectorAll('[data-task]').forEach(x=>{x.checked=false;localStorage.setItem('nexora_task_'+x.dataset.task,'0')})}
+function initDailyTasks(){document.querySelectorAll('[data-task]').forEach(x=>{x.checked=localStorage.getItem('nexora_task_'+x.dataset.task)==='1';x.addEventListener('change',()=>localStorage.setItem('nexora_task_'+x.dataset.task,x.checked?'1':'0'))})}
+window.addEventListener('DOMContentLoaded',initDailyTasks);
+function showInfo(msg){alert(msg)}
+
+
+</script><script>
+function prepareNexoraRequest(){
+ const task=(document.getElementById('taskNeed').value||'').trim();
+ if(!task){alert('Please describe what you need help with first.');return;}
+ const category=document.getElementById('taskType').value;
+ const style=document.getElementById('taskStyle').value;
+ const prompt=`Act as my practical personal assistant inside NEXORA AI. Help me with this request: ${task}
+
+Category: ${category}
+Preferred answer: ${style}
+Context: I am using an Android phone in Nigeria. Keep the advice beginner-friendly, practical and affordable. Explain any costs before recommending paid services. Do not promise guaranteed income, invent facts, or recommend scams. If important details are missing, ask only the most necessary question. Give me a useful result I can act on.`;
+ const box=document.getElementById('nexoraPromptResult');
+ box.style.display='block';box.classList.add('show');box.textContent=prompt;
+ const copy=document.createElement('button');copy.className='copy';copy.textContent='Copy AI request';copy.onclick=()=>copyNexoraPrompt(prompt,copy);box.appendChild(document.createElement('br'));box.appendChild(copy);
+ const open=document.createElement('button');open.className='primary';open.textContent='Open ChatGPT';open.onclick=()=>window.open('https://chatgpt.com/','_blank');box.appendChild(open);
+ const save=document.createElement('button');save.className='copy';save.textContent='Save request on this phone';save.onclick=()=>saveNexoraRequest(prompt);box.appendChild(save);
+ box.scrollIntoView({behavior:'smooth',block:'nearest'});
+}
+function copyNexoraPrompt(text,button){
+ if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(text).then(()=>button.textContent='Copied').catch(()=>fallbackCopyNexora(text,button));}
+ else{fallbackCopyNexora(text,button);}
+}
+function fallbackCopyNexora(text,button){
+ const area=document.createElement('textarea');area.value=text;document.body.appendChild(area);area.select();
+ try{document.execCommand('copy');button.textContent='Copied';}catch(e){alert('Please select and copy the request manually.');}
+ area.remove();
+}
+function saveNexoraRequest(text){
+ let items=[];try{items=JSON.parse(localStorage.getItem('nexora_personal_saved')||'[]')}catch(e){}
+ items.unshift({text:text,date:new Date().toLocaleString()});
+ localStorage.setItem('nexora_personal_saved',JSON.stringify(items.slice(0,30)));
+ alert('Your AI request has been saved on this phone.');
+}
+</script></body></html>
